@@ -1,3 +1,10 @@
+# Since i got two datsets of wine (white and red), i put in an approach where the confusions are minimal,easy to code adn debug,as well as in such a way that the code can be reused   
+# This file wine_train.py makes it easy to train a model on any wine dataset—whether red or white.
+# It loads the data, splits it into training and testing sets, and scales the features for better performance.
+# The model is built using Keras with a few dense layers to predict wine quality.
+# Once training is done, it saves both the model and the scaler separately, so they can be used later for making predictions.
+# This way, you can reuse the same function for different datasets without rewriting code, and keep things organized for future use.
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
