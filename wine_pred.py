@@ -1,3 +1,8 @@
+# This prediction loop lets users keep testing without restarting the program.
+# It asks for all the wine features as input, so you can try different values easily.
+# Plus, you can choose between red or white wine models, making it flexible and user-friendly.
+# Overall, it’s designed to make experimenting with predictions simple and interactive.
+
 import joblib
 import tensorflow as tf
 
